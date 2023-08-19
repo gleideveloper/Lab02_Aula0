@@ -2,6 +2,6 @@ FROM node:14
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
-COPY lab03_docker .
+COPY Lab02_Aula03 .
 EXPOSE 3000
 CMD [ "npm", "start" ]
